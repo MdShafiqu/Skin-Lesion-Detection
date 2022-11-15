@@ -43,4 +43,4 @@ Now test the web application by running following commands-
 
 (tf_app) C:\my_repo> python main_app.py
 
-Open a browser and enter address- http://127.0.0.1:5000/ or suggested one from prompt to test the web app.
+Open a browser and enter address- http://127.0.0.1:5000/ or suggested address from the prompt to test the web app.
