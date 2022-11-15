@@ -1,0 +1,94 @@
+body {
+  background: #FFFFFF; /* Main body background color */
+  margin: 0;
+  }
+ 
+p {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  color: Black; /* Text color */
+  }
+  
+h6 {
+  margin-top: 0;
+  color: Black
+  }
+  
+.title{
+  background-color: #8CBDB9; /* Title bar background color */
+  padding: 10px;
+  overflow: hidden;
+  }
+
+.title > .tcontent > a{
+  float: left;
+  margin-left: 20px;
+  text-decoration: none;
+  }
+
+.title > .tcontent > a:hover{
+  background-color: #88b2af; /* Home button hover color */
+  }
+
+.title > .tcontent > h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.5em;
+  color: Black; /* Title color */
+  text-align: Center; 
+  }
+
+.body {
+  margin: 50px 100px;
+  }
+
+.body > .boxed{
+  margin: 0.25%;
+  padding: 0.33%;
+  background-color: #8CBDB9; /* The box background color */
+  display: inline-block;
+  width: 31.5%; /* 33% - 6*0.25% to ensure magin taken into account for 3 boxes in row */
+  height: auto;
+  text-align: center;
+  }
+
+.body > .boxed > img {
+  width: 100%;
+  height: auto;
+  }
+
+.body > .movieBoxed {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5%;
+  background-color: #8CBDB9; /* The box background color */
+  display: block;
+  width: 47%;
+  height: auto;
+  text-align: center;
+  }
+
+.body > .movieBoxed > img {
+  width: 100%;
+  height: auto;
+  }
+
+ul.options > li{
+  display: inline-block;
+  width: 29%;
+  height: auto;
+  margin: 1%;
+  }
+  
+ul.options > li > form > input {
+  width: 100%;
+  height: 60px;
+  }
+
+@media (max-width: 1000px) { /* Ensures on small screens the images are still visible, if needed this number can be increased of decreased */
+  .body > .boxed{
+    width: 100%;
+  }
+  .body > .movieBoxed{
+    width: 100%;
+  }
+}
