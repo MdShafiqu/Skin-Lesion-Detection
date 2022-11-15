@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <div class="title">
+      <div class="tcontent">
+        <a href="/"><img src="/staticFiles/images/home-button.png" alt="Home" width="50" height="50"></a>
+        <h1>C4C Skin Lesion Detection and Segmentation</h1>
+      </div>
+    </div>
+    
+    <div class="body">
+      <p>The following shows the real-time video from the attached camera with UI obfuscation. (Playback may be slow or take a while to load)</p>
+      
+      <div class="movieBoxed">
+        <img src="{{ url_for('live_feed_obscure') }}">
+        <p>Video with UI Obfuscation</p>
+      </div>
+      
+      <br>
+      
+      <p>To switch to detection overlay, press the below button</p>
+      <form action="/show_live_detect" target="_self">
+        <input type="submit" value="Switch to detection overlay" />
+      </form>
+    </div>
+  </body>
+</html>

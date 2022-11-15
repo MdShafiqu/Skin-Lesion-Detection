@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <div class="title">
+      <div class="tcontent">
+        <a href="/"><img src="/staticFiles/images/home-button.png" alt="Home" width="50" height="50"></a>
+        <h1>C4C Skin Lesion Detection and Segmentation</h1>
+      </div>
+    </div>
+    
+    <div class="body">
+      <p>Select an Image File to Upload for Analysis</p>
+   
+      <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" id="myFile" name="uploaded-file" accept=".jpg" value="Browse...">
+        <input name="image" type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

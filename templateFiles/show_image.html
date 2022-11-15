@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <div class="title">
+      <div class="tcontent">
+        <a href="/"><img src="/staticFiles/images/home-button.png" alt="Home" width="50" height="50"></a>
+        <h1>C4C Skin Lesion Detection and Segmentation</h1>
+      </div>
+    </div>
+    
+    <div class="body">
+      <p>The following images show the original, the lesion detection overlay, then finally, the segmented lesion.</p>
+      <h6>Note: if no UI is detected, the original image will be displayed in each block.</h6>
+      
+      <div class="boxed">
+        <img src="{{ user_image }}" alt="Original Skin Image">
+        <p>Original Image</p>
+      </div>
+      
+      <div class="boxed">
+        <img src="{{ detect_image }}" alt="Image with Lesion Detection Overlaid">
+        <p>Image after Lesion Detection</p>
+      </div>
+      
+      <div class="boxed">
+        <img src="{{ obscure_image }}" alt="Image with Lesion Segmented">
+        <p>Image after Lesion Segmention</p>
+      </div>
+      
+      <br>
+      <br>
+      
+      <p>To see a demonstration on another image, press the below button.</p>
+      <form action="/image_upload" target="_self">
+        <input type="submit" value="Upload Another Image" />
+      </form>
+    </div>
+
+  </body>
+</html>
