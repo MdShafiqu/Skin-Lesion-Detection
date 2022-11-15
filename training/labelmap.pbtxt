@@ -1,0 +1,9 @@
+item {
+  id: 1
+  name: 'Suspicious-Lesion'
+}
+
+item {
+  id: 2
+  name: 'Non-suspicious-Lesion'
+}
