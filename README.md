@@ -1,6 +1,6 @@
 # Skin Lesion Detection Web App
 
-In this project work, I have adapted an AI model Inception for skin lesion detection.
+In this project work, I have adapted an AI model known as Inception for skin lesion detection.
 
 ![image](https://user-images.githubusercontent.com/22468194/201907043-914bf006-412b-4b57-9e2c-179a7d246484.png)
 
