@@ -5,7 +5,7 @@ In this project work, I have adapted an AI model Inception for skin lesion detec
 ![image](https://user-images.githubusercontent.com/22468194/201907043-914bf006-412b-4b57-9e2c-179a7d246484.png)
 
 ## How to Run
-Install anaconda. Clone or download  https://github.com/MdShafiqu/Thermal-Image-Detection, Create a folder name my_repo and keep all files from repo inside it.  Implement following commands in anaconda prompt-
+Install anaconda. Clone or download  https://github.com/MdShafiqu/Skin-Lesion-Detection, Create a folder name my_repo and keep all files from repo inside it.  Implement following commands in anaconda prompt-
 
 C:\> conda create -n tf_app pip python=3.7
 
@@ -43,4 +43,4 @@ Now test the web application by running following commands-
 
 (tf_app) C:\my_repo> python main_app.py
 
-Open a browser and enter address- http://127.0.0.1:5000/ to test the web app.
+Open a browser and enter address- http://127.0.0.1:5000/ or suggested one from prompt to test the web app.
