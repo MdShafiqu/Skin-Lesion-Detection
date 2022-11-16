@@ -33,6 +33,8 @@ C:\> activate tf_app
 
 (tf_app) C:\> pip install matplotlib
 
+(tf_app) C:\> pip install scikit-image
+
 (tf_app) C:\> pip install pandas
 
 (tf_app) C:\> pip install opencv-python
